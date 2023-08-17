@@ -1,8 +1,8 @@
 /system/ directory build instructions
 =====================================
 
-The /system/ directory available on the mooneye platform and provided in
-prebuilt form by android_mooneye-o.bb is a tricky mix of an original WearOS
+The /system/ directory available on the garmin platform and provided in
+prebuilt form by android_garmin-o.bb is a tricky mix of an original WearOS
 /system and some recompiled parts. This is due to the half-closed nature of
 WearOS. This file explains you how to rebuild manually your own /system dir.
 
@@ -43,7 +43,7 @@ libhybris. There is a script in the libhybris distribution that can pull
 the header files from the downloaded android distribution (above).
 
   git clone https://github.com/libhybris/libhybris
-  ./libhybris/utils/extract_headers.sh android-mooneye include 8 0 0
+  ./libhybris/utils/extract_headers.sh android-garmin include 8 0 0
 
 With the system and include directories, you can create the system-dir tarball:
 

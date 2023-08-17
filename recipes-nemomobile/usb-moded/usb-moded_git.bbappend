@@ -1,1 +1,1 @@
-FILESEXTRAPATHS:prepend:mooneye := "${THISDIR}/usb-moded:"
+FILESEXTRAPATHS:prepend:garmin := "${THISDIR}/usb-moded:"

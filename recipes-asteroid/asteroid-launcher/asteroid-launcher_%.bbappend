@@ -1,2 +1,2 @@
-FILESEXTRAPATHS:prepend:mooneye := "${THISDIR}/asteroid-launcher:"
-SRC_URI:append:mooneye = " file://default.conf"
+FILESEXTRAPATHS:prepend:garmin := "${THISDIR}/asteroid-launcher:"
+SRC_URI:append:garmin = " file://default.conf"

@@ -6,13 +6,13 @@ SUMMARY = "Android kernel for the Ticwatch E & S"
 HOMEPAGE = "https://android.googlesource.com/"
 LICENSE = "GPLv2"
 LIC_FILES_CHKSUM = "file://COPYING;md5=d7810fab7487fb0aad327b76f1be7cd7"
-COMPATIBLE_MACHINE = "mooneye"
+COMPATIBLE_MACHINE = "garmin"
 
 # Use an older version of gcc (gcc >= 9 doesn't boot.)
 DEPENDS:remove += "virtual/${TARGET_PREFIX}gcc"
 DEPENDS += "virtual/${TARGET_PREFIX}gcc8"
 
-SRC_URI = "git://android.googlesource.com/kernel/mediatek;branch=android-mediatek-mooneye-4.4-oreo-wear-dr;protocol=https \
+SRC_URI = "git://android.googlesource.com/kernel/mediatek;branch=android-mediatek-garmin-4.4-oreo-wear-dr;protocol=https \
     file://0001-Fix-various-drivers-compilation-with-a-recent-GCC.patch \
     file://0003-ARM-uaccess-remove-put_user-code-duplication.patch \
     file://0004-Backport-HCI_STP-from-Mediatek.patch \

@@ -1,9 +1,9 @@
-FILESEXTRAPATHS:prepend:mooneye := "${THISDIR}/${PN}:"
+FILESEXTRAPATHS:prepend:garmin := "${THISDIR}/${PN}:"
 
-SRC_URI:append:mooneye = " file://nonplat_property_contexts \
+SRC_URI:append:garmin = " file://nonplat_property_contexts \
     file://plat_property_contexts"
 
-do_install:append:mooneye() {
+do_install:append:garmin() {
     install -m 0644 ${WORKDIR}/nonplat* ${D}/
     install -m 0644 ${WORKDIR}/plat* ${D}/
 }

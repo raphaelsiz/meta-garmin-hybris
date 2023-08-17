@@ -1,1 +1,1 @@
-RDEPENDS:${PN}:append:mooneye = " ngfd-plugin-droid-vibrator "
+RDEPENDS:${PN}:append:garmin = " ngfd-plugin-droid-vibrator "

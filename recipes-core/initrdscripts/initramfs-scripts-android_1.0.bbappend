@@ -1,2 +1,2 @@
-FILESEXTRAPATHS:prepend:mooneye := "${THISDIR}/${PN}:"
-COMPATIBLE_MACHINE:mooneye = "mooneye"
+FILESEXTRAPATHS:prepend:garmin := "${THISDIR}/${PN}:"
+COMPATIBLE_MACHINE:garmin = "garmin"

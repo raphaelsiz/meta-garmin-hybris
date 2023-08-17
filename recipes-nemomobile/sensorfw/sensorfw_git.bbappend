@@ -1,1 +1,1 @@
-DEPENDS:append:mooneye = " libhybris "
+DEPENDS:append:garmin = " libhybris "
